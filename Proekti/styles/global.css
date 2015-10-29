@@ -82,6 +82,9 @@ section.content{
      height: 436px;
      background-color: #edf1f2;
 }
+section.content hr{
+	width: 250px;
+}
 section.content h2{
 	font-size: 44px;
 	text-align: center;
@@ -169,9 +172,10 @@ section.end{
 	height: 60px;
 }
 section.end ul{
+	width: 400px;
 	text-align: left;
-	padding: 20px;
 	padding-left: 150px;
+   float: left;
 
 }
 section.end li{
@@ -190,9 +194,10 @@ section.end a:hover{
  	font-family: 'Open Sans', sans-serif;
  	font-size: 12px;
     color:#666666;
-    width: 100%;
-   text-align:right;
-   margin: -60px;
+    float: right;
+    display: block;
+    padding-right: 150px;
+  
    
 
  }
