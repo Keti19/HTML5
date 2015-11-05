@@ -197,8 +197,16 @@ section.end a:hover{
     float: right;
     display: block;
     padding-right: 150px;
-  
    
-
+ }
+ button.delete{
+ 	background-color: red;
+ 	color: #fff;
+ 	border-radius: 2px;
+ 	border:none;
+ 	padding: 5px 10px;
+ 	font-size: 12px;
+ 	text-transform: uppercase;
+ 	font-family: 'Open Sans', sans-serif;
  }
 
