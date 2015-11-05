@@ -1,0 +1,69 @@
+body{
+	background-color: #f1f2f6;
+}
+div.star{
+	background-color: #fff;
+	width: 301px;
+	height: 381px;
+	border-top: 3px solid #ac92ed;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+	/*background-color: blue;*/
+}	
+div.header{
+	width: 100%;
+	height: 62px;
+	margin: 20px 100px 20px 20px;
+}
+div.star .header i{
+	display:block;
+	float: left;
+    color: #414954;
+    font-size: 60px;
+}
+div.star .header .data-text{
+	display: block;
+	float: left;
+	float: left;
+	
+}
+div.star .header .text{
+	display: block;
+	font-size: 30px;
+	color: #555a60;
+ }
+ div.star .header .number{
+ 	display: block;
+ 	font-size: 20px;
+    color: #bea9ee;
+ }
+ div.star ul {
+ 	list-style: none;
+ 	margin:0px 0px 0px 20px ;
+ 	padding: 0px;
+ }
+ div.star ul li{
+ 	margin: 0px 0px 23px 0px;
+ 	font-size: 15px;
+ 	color: #7f868e;
+ }
+
+ div.star h1{
+ 	color: #ccd3db;
+ 	margin: 0px 0px 0px 20px;
+ 	font-size: 12px;
+ }
+ div.star button{
+ 	width: 202px;
+ 	height: 50px;
+ 	margin: 30px 50px 30px 50px;
+ 	background-color: #ac92ed;
+ 	border:2px solid  #ac92ed; 
+ 	border-radius: 5px;
+ 	color: #fff;
+ 	font-size: 14px;
+ }
+ div.star button span{
+ 	font-size: 14px;
+ 	text-transform: uppercase;
+ }

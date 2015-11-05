@@ -1,0 +1,109 @@
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+body{
+	background-color: #f1f2f6;
+}
+div.post{
+	width: 700px;
+	height: 553px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 3px;
+
+}
+div.post div.img{
+	width: 100%;
+	height: 190px;
+	background-image:url('../img/kafe.jpg');
+}
+div.post h1{
+	font-family: font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+    color: #434a54;
+    margin: 41px 52px 40px 42px;
+}
+div.post p{
+	font-family: font-family: 'Open Sans', sans-serif;
+	color: #b4b8c1;
+	font-size: 15px;
+	margin:0px 55px 0px 40px;
+}
+div.post ul{
+	list-style: none;
+	margin:43px 0px 26px 0px
+
+}
+div.post ul li{
+	display: inline-block;
+	margin-right: 20px;
+	color: #b4b8c1;
+}
+div.post button{
+	display: block;
+	float: right;
+	background-color: #a0d569;
+	color: #fff;
+	border: 2px solid #a0d569;
+	border-radius: 5px;
+	width: 69px;
+	height: 31px;
+	margin-right: 41px
+
+}
+div.post hr{
+	margin-right: 41px;
+	margin-left: 41px;
+}
+
+
+div.header{
+	width: 300px;
+	height: 320px;
+	border: none;
+	border-radius: 5px;
+	background-color: #fff;
+}
+div.img{
+	background-image: url('../img/visit.png');
+    width: 100%;
+    height: 170px;
+}
+div.header p{
+	color: #b7bec8;
+	font-size: 17px;
+	font-family: font-family: 'Open Sans', sans-serif;
+	margin: 22px 0px 0px 22px;
+}
+div.header h1{
+	color: #424a55;
+	margin:0px 0px 0px 22px;
+}
+div.header ul.text{
+	margin: 25px 0px 0px 0px;
+	list-style: none;
+	padding: 0px;
+	
+}
+div.header ul.text li{
+	color: #b7bec8;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 22px;
+
+}
+div.header ul.number {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+
+}
+div.header ul.number li{
+	color: #424a55;
+	display: inline-block;
+	margin-left: 22px;
+	margin-right: 42px;
+	
+
+}
