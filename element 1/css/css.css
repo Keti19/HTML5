@@ -80,4 +80,5 @@ div.click ul.text li{
 }
 div.click ul.text li span{
 	color: #646e7a;
+	text-transform: uppercase;
 }
