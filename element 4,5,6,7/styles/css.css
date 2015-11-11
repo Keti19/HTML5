@@ -17,20 +17,20 @@ div.post div.img{
 	background-image:url('../img/kafe.jpg');
 }
 div.post h1{
-	font-family: font-family: 'Open Sans', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	font-size: 30px;
     color: #434a54;
-    margin: 41px 52px 40px 42px;
+    margin: 35px 52px 30px 42px;
 }
 div.post p{
-	font-family: font-family: 'Open Sans', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	color: #b4b8c1;
 	font-size: 15px;
-	margin:0px 55px 0px 40px;
+	margin:0px 55px 0px 30px;
 }
 div.post ul{
 	list-style: none;
-	margin:43px 0px 26px 0px
+	margin:35px 0px 20px 0px
 
 }
 div.post ul li{
@@ -47,12 +47,13 @@ div.post button{
 	border-radius: 5px;
 	width: 69px;
 	height: 31px;
-	margin-right: 41px
+	margin-right: 41px;
+    margin-top: 10px;
 
 }
 div.post hr{
-	margin-right: 41px;
-	margin-left: 41px;
+	margin: 0px 41px 0px 41px;
+	
 }
 
 
@@ -71,7 +72,7 @@ div.img{
 div.header p{
 	color: #b7bec8;
 	font-size: 17px;
-	font-family: font-family: 'Open Sans', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	margin: 22px 0px 0px 22px;
 }
 div.header h1{
@@ -79,6 +80,7 @@ div.header h1{
 	margin:0px 0px 0px 22px;
 }
 div.header ul.text{
+	font-family: 'Lato', sans-serif;
 	margin: 25px 0px 0px 0px;
 	list-style: none;
 	padding: 0px;
@@ -112,9 +114,10 @@ div.web{
 	background-color: #fff;
 }
 div.web ul{
+	font-family: 'Lato', sans-serif;
 	background-color:#f6f7fb; 
 	list-style: none;
-	font-size: 15px;
+	font-size: 14px;
 	padding: 0px 26px 0px 32px;
 
 
@@ -133,8 +136,9 @@ div.web ul li.a{
     color: #646e78;
 }
 div.web h1{
+	font-family: 'Lato', sans-serif;
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 12px;
 	color: #c2c9d3;
     margin: 20px 55px 25px 20px;
 
@@ -143,68 +147,128 @@ div.web h1 a{
 	color: #646c79;
 }
 div.web p{
-	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
 	margin-right:20px;
+	color: #c2c9d3;
+	margin-left: 20px;
 
 }
 div.web p a{
 	color: #bce299;
 }
+
 div.login{
-	position: relative;
-	width: 420px;
-	height: 360px;
+	width:420px;
+	height:360px;
 	background-color: #fff;
 }
-div.login p{
-	padding:40px 0px 87px 40px;
+div.search{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: #eeeeee;
+}
+div.search h1{
+	position: absolute;
+	font-family:'Open Sans', sans-serif;
+    top: 40px;
+	left: 40px;
+	margin: 0px;
 	color: #b3b3b3;
 	font-size: 18px;
 }
-div.login div.in{
-	float: left;
-	position: relative;
-	width: 160px;
-	height: 40px;
-	border: 2px solid #dedede;
+div.search i{
+	position: absolute;
+	color: #bababa;
+	left: 364px;
+	top: 48px;
+	right: 40px;
+	bottom: 44px;
 }
+
 div.main{
+	margin-top: 40px;
 	margin-left: 40px;
 	width: 342px;
-	height:120px;
+	height:110px;
+	color: #999999;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
 }
-div.in span{
-  position: absolute;
-  padding-top:13px;
-  padding-left: 10px;
+div.login div.in{
+	position: relative;
+	margin-bottom: 20px;
+	float: left;
+	width: 160px;
+	height: 40px;
+	border: 2px solid #dedede;
+}
+div.in a{
+     position: absolute;
+     top:13px;
+     left: 10px;
 }
 div.out{
-    float: right;
 	position: relative;
+	margin-bottom: 20px;
+    float: right;
 	width: 160px;
 	height: 40px;
 	border: 2px solid #dedede;
+}
+div.out a{
+	position: absolute;
+    top:13px;
+    left: 10px;
 }
 div.ad{
-	float: left;
 	position: relative;
+	float: left;
 	width: 160px;
 	height: 40px;
 	border: 2px solid #dedede;
+}
+div.ad a{
+	position: absolute;
+    top:13px;
+    left: 10px;
 }
 div.kd{
-	float: right;
 	position: relative;
+	float: right;
 	width: 160px;
 	height: 40px;
 	border: 2px solid #dedede;
 }
-div.login button{
+div.kd a{
     position: absolute;
+    top:13px;
+    left: 10px;
+}
+div.add{
+	margin-left: 40px;
+	margin-top: 50px;
+    width: 342px;
+    height: 88px;
+}
+div.add h2{
+	display: inline-block;
+	font-family:'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #8a8a8a;
+
+}
+div.add i{
+	/*margin-left: 40px;*/
+	display: inline-block;
+	color: #dedede;
+	border:none;
+}
+div.login button{
     float: right;
 	width: 123px;
  	height: 38px;
- 	margin: 30px 50px 30px 50px;
  	background-color: #37618f;
  	border: none;
  	color: #fff;
