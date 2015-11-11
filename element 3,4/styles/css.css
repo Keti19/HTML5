@@ -150,3 +150,63 @@ div.web p{
 div.web p a{
 	color: #bce299;
 }
+div.login{
+	position: relative;
+	width: 420px;
+	height: 360px;
+	background-color: #fff;
+}
+div.login p{
+	padding:40px 0px 87px 40px;
+	color: #b3b3b3;
+	font-size: 18px;
+}
+div.login div.in{
+	float: left;
+	position: relative;
+	width: 160px;
+	height: 40px;
+	border: 2px solid #dedede;
+}
+div.main{
+	margin-left: 40px;
+	width: 342px;
+	height:120px;
+}
+div.in span{
+  position: absolute;
+  padding-top:13px;
+  padding-left: 10px;
+}
+div.out{
+    float: right;
+	position: relative;
+	width: 160px;
+	height: 40px;
+	border: 2px solid #dedede;
+}
+div.ad{
+	float: left;
+	position: relative;
+	width: 160px;
+	height: 40px;
+	border: 2px solid #dedede;
+}
+div.kd{
+	float: right;
+	position: relative;
+	width: 160px;
+	height: 40px;
+	border: 2px solid #dedede;
+}
+div.login button{
+    position: absolute;
+    float: right;
+	width: 123px;
+ 	height: 38px;
+ 	margin: 30px 50px 30px 50px;
+ 	background-color: #37618f;
+ 	border: none;
+ 	color: #fff;
+ 	font-size: 14px;
+}
