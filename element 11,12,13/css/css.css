@@ -1,5 +1,5 @@
 body{
-	background-color: #e7e9e3;
+	background-color: #3e4249;
 }
 div.header{
 	width: 420px;
@@ -167,4 +167,117 @@ div.start button span{
 	font-size: 15px;
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
+}
+nav.header1{
+    width:100%;
+    height: 70px;
+    background-color: #e6e9ee;
+    text-align: center;
+}
+nav.header1 a.logo{
+    margin-right: 40px;
+}
+nav.header1 a.menu{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #656d78;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    width: 6%;
+    position: relative;
+    top: -30px;
+}
+nav.header1 a.menu:hover{
+    color: #9fd566;
+}
+nav.header1 span.copyrights{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #adb1ba;
+    width: 280px;
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    margin-left: 40px;
+}
+div.cart{
+	position: relative;
+	width: 380px;
+	height: 230px;
+	background-color: #fff;
+}
+div.header1{
+	position: relative;
+	width: 100%;
+	height: 140px;
+}
+
+div.header1 div.text{
+	top: 30px;
+	position: absolute;
+	left: 130px;
+	width: 50%;
+	height: 100%;
+}
+div.text h1{
+	font-size: 30px;
+	color: #0f0505;
+     font-weight: normal;
+     /*padding-top: 40px;*/
+     margin: 0px;
+}
+div.text p{
+	color: #666666;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+div.end1{
+	position:absolute;
+	width: 50%;
+	height: 90px;
+	background-color: #1b1b1b;
+	
+}
+div.end1 h2{
+	font-weight: normal;
+	font-size: 25px;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+	line-height: 15px;
+	text-align: center;
+	padding-top: 23px;
+}
+div.end1 h2 a{
+	font-size: 18px;
+	color: #666666;
+	margin: 0px;
+	padding: 0px;
+}
+div.end2{
+	position:absolute;
+	width: 50%;
+	height: 90px;
+	background-color: #1b1b1b;
+	left: 190px;
+	border-left: 2px solid#ac2f3b;
+}
+div.end2 h3{
+	font-weight: normal;
+	font-size: 25px;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+	line-height: 15px;
+	text-align: center;
+	padding-top: 23px;
+}
+div.end2 h3 a{
+	font-size: 18px;
+	color: #666666;
+	margin: 0px;
+	padding: 0px;
 }
