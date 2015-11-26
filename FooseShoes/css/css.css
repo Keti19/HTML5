@@ -1,0 +1,398 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+div.header{
+    width: 100%;
+    height: 45px;
+    background-color: #242424;
+}
+div.header h1{
+	float: left;
+	color: #57c5a0;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 5px 0px 0px 230px;
+	padding: 0px;
+}
+div.right{
+	width: 185px;
+	height: 100%;
+	float: right;
+	margin-right: 230px;
+}
+div.right i{
+	font-size: 11px;
+	color: #7d7d7d;
+}
+div.login{
+	height: 100%;
+	width: 140px;
+	border-right: 1px solid #7d7d7d;
+	border-left: 1px solid #7d7d7d;
+	display: inline-block;
+	margin-left: 20px;
+}
+div.login h2{
+	font-weight: normal;
+	font-size: 11px;
+	color: #7d7d7d;
+	text-align: center;
+	margin:17px auto;
+}
+div.menu{
+	
+	height: 60px;
+	width: 100%;
+}
+div.menu ul{
+	font-size: 20px;
+	margin:0px 0px 0px 230px;
+	padding: 0px;
+
+}
+div.menu ul li{
+	float: left;
+	list-style-type: none;
+	margin-left: 23px;
+	margin-right: 23px;
+	margin-top: 23px;
+
+}
+div.menu ul div.li{
+	height: 60px;
+	width: 1px;
+	float: left;
+	border-left: 1px solid #d4d4d4;
+}
+div.img{
+	background-image: url('../img/Home.jpg');
+	width: 100%;
+	height: 460px;
+}
+div.img div.top{
+	float: right;
+	margin-right: 270px;
+	margin-top: 70px;
+}
+div.top div.price{
+	position: relative;
+	width: 70px;
+	height: 65px;
+	background-color: #57c5a0;
+}
+div.price a{
+	position: relative;
+	font-size: 14px;
+	color: #fff;
+	left: 11px;
+	top: 25px;
+}
+div.top h1{
+	font-size: 35px;
+	font-weight: normal;
+	line-height: 35px;
+	margin: 13px 0px 13px 0px;
+}
+div.top p{
+	font-size: 16px;
+	margin: 0px;
+}
+div.nav{
+
+	width: 100%;
+	height: 90px;
+	background-color: #2e2e2e; 
+}
+div.nav div.post{
+	position: relative;
+	/*display: block;*/
+	width: 962px;
+	height: 11px;
+	background-color: #000000;
+	left: 215px;
+	top: 5px;
+}
+div.post div.dividers{
+	width: 197px;
+	height: 10px;
+	float: left;
+	border-right: 1px solid #d4d4d4;
+
+}
+div.dividers div.active{
+	height: 6px;
+	width: 175px;
+	background-color: #57c5a0;
+	float: right;
+	margin-right: 6px;
+	margin-top: 2px;
+}
+div.item{
+	width: 100%;
+	height: 75px;
+	margin-left: 255px;
+	margin-top: 20px;
+	/*display: block;*/
+}
+div.item ul{
+	margin: 0px;
+	padding: 0px;
+	
+}
+div.item ul li{
+	float: left;
+	list-style-type: none;
+	margin-right: 99px;
+	color: #979797;
+	font-size: 16px;
+}
+div.item ul li.item1{
+	color: #fff;
+	font-size: 16px;
+}
+div.specials{
+	background-color: #242424;
+	width: 100%;
+	height: 180px;
+	
+}
+div.specials div.img1{
+	position:relative;
+	display: inline-block;
+	margin-right: 22px;
+	margin-left: 225px;
+	width: 300px;
+	height: 180px;
+	background-image: url('../img/Home1.jpg');
+}
+div.specials div.img2{
+	position: relative;
+	display: inline-block;
+	margin-right: 22px;
+	width: 300px;
+	height: 180px;
+	background-image: url('../img/Home2.jpg');
+}
+div.specials div.img3{
+	position: relative;
+	display: inline-block;
+    width: 300px;
+	height: 180px;
+	background-image: url('../img/Home3.jpg');
+}
+div.img1 div.onsale{
+	position: absolute;
+	width: 180px;
+	height: 60px;
+	background-color: #000000;
+	opacity: .8;
+	left: 60px;
+	top: 60px;
+
+}
+div.onsale p{
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+div.so{
+	position: absolute;
+	width: 180px;
+	height: 60px;
+	background-color: #000000;
+	opacity: .8;
+	left: 60px;
+	top: 60px;
+}
+div.so p{
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+div.mh{
+	position: absolute;
+	width: 180px;
+	height: 60px;
+	background-color: #000000;
+	opacity: .8;
+	left: 60px;
+	top: 60px;
+}
+div.mh p{
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+div.arrivals{
+	width: 100%;
+	height: 1000px;
+	background-color: #ebe7df;
+}
+div.new{
+	width: 100%;
+	height: 350px;
+}
+div.new h2{
+    display: inline-block;
+	font-weight: normal;
+	font-size: 20px;
+	margin: 0px;
+	padding:35px 0px 0px 225px;
+}
+div.new button{
+	float: right;
+	margin-right: 180px;
+	margin-top: 35px;
+	border: 1px solid #bcb5a7;
+	width: 100px;
+	height: 30px;
+	background-color: #ebe7df;
+	color: #bcb5a7;
+}
+div.new ul{
+	margin: 35px 0px 0px 225px;
+	padding: 0px;
+}
+div.new ul li{
+   float: left;
+   margin-right: 22px;
+   list-style-type: none;
+}
+div.new div.img4{
+	background-image: url('../img/Home4.jpg');
+	width: 300px;
+	height: 240px;
+}
+div.new div.img5{
+	background-image: url('../img/Home5.jpg');
+	width: 300px;
+	height: 240px;
+	display: inline-block;
+}
+div.new div.img6{
+	background-image: url('../img/Home6.jpg');
+	width: 300px;
+	height: 240px;
+	display: inline-block;
+}
+div.new1{
+	width: 100%;
+	height: 350px;
+}
+div.new1 h3{
+    display: inline-block;
+	font-weight: normal;
+	font-size: 20px;
+	margin: 0px;
+	padding:35px 0px 0px 225px;
+}
+div.new1 button{
+	float: right;
+	margin-right: 180px;
+	margin-top: 35px;
+	border: 1px solid #bcb5a7;
+	width: 100px;
+	height: 30px;
+	background-color: #ebe7df;
+	color: #bcb5a7;
+}
+div.new1 ul{
+	margin: 35px 0px 0px 225px;
+	padding: 0px;
+}
+div.new1 ul li{
+   float: left;
+   margin-right: 22px;
+   list-style-type: none;
+}
+div.new1 div.img7{
+	background-image: url('../img/Home7.jpg');
+	width: 300px;
+	height: 240px;
+}
+div.new1 div.img8{
+	background-image: url('../img/Home8.jpg');
+	width: 300px;
+	height: 240px;
+	display: inline-block;
+}
+div.new1 div.img9{
+	background-image: url('../img/Home9.jpg');
+	width: 300px;
+	height: 240px;
+	display: inline-block;
+}
+div.end{
+	width: 100%;
+	height: 250px;
+	background-color: #ebe7df;
+	margin-left: 225px;
+}
+
+div.add{
+	margin-right: 22px;
+	display: inline-block;
+	width: 200px;
+	height: 175px;
+	background-color: #dfdbd4;
+}
+div.add h1{
+	font-weight: normal;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin: 0px;
+	padding: 0px;
+}
+div.add p{
+	font-size: 16px;
+	margin: 0px;
+}
+div.add1{
+	margin-right: 25px;
+	padding: 0px;
+	background-color: #dfdbd4;
+	display: inline-block;
+	width: 200px;
+	height: 175px;
+}
+div.add1 h1{
+	margin: 0px;
+	font-weight: normal;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+div.add1 p{
+	margin: 0px;
+	font-size: 16px;
+}
+div.add3{
+	display: inline-block;
+	width: 450px;
+	height: 175px;
+	background-color: #dfdbd4;
+}
+div.add3 h1{
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+div.add3 h2{
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	font-weight: normal;
+}
+div.add3 h3{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-weight: normal;
+}
