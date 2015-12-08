@@ -1,0 +1,142 @@
+ * {
+ 	margin: 0px;
+ 	padding: 0px;
+ 	list-style: none;
+ 	font-family: sans-serif;
+ }
+ html,body{
+ 	height: 100%;
+ }
+ header.site-header{
+ 	width: 100%;
+ 	height: 60px;
+ 	background-color: silver;
+ 	position: fixed;
+ 	box-sizing: border-box;
+ }
+ .site-header nav{
+    margin: auto 24%;
+    padding: 7px;
+    
+    
+ }
+ .site-header nav a{
+ 	text-decoration: none;
+ 	float: left;
+ 	color: black;
+ 	margin: 0px 15px;
+ 	text-transform: uppercase;
+ 	padding-top: 10px;
+
+ }
+ section{
+ 	width: 100%;
+ }
+
+section.img{
+	background-image: url('../img/zara.jpeg') ;
+	
+
+}
+.img{
+   width: 100%;
+   height: 100%;
+}
+.img h1{
+	color: #a47a28;
+	text-align:center;
+	margin: 0px auto;
+	padding-top: 300px;
+	font-weight: normal;
+}
+.img p{
+	text-align: center;
+	margin: 0px auto;
+}
+section > h2{
+	padding-top: 15px;
+	margin: 0px auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: normal;
+}
+.new{
+	width: 70%;
+	text-align: center;
+	margin: 0px auto;
+}
+div.sectioon-conteiner{
+	text-align: center;
+}
+div.section-conteiner img{
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+	margin: 30px;
+}
+.featured{
+	width: 70%;
+	margin: 0px auto;
+}
+
+section.button{
+	width:70%;
+	text-align: center;
+	margin: 0px auto;
+}
+.button button{
+	background-color: #313131;
+	border:none;
+	color: #fff;
+	width: 180px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+footer.site-footer{
+	background-color: black;
+	height: 130px;
+	color: #fff;
+	box-sizind:border-box;
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+.site-footer div.left{
+	float: left;
+    margin-right: 5%;
+    margin-left: 16%;
+	font-size: 10px;
+}
+div.left p{
+	font-size: 12px;
+	color: #a47a28;
+}
+.left button{
+	background-color: black;
+	border:1px solid #fff;
+	color: #fff;
+	font-size: 12px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	margin: 0px auto;
+    
+}
+div.right{
+	color: #fff;
+	float: right;
+	margin-right: 16%;
+	width: 10%;
+}
+.right i{
+    margin-right: 13%;
+    font-size: 15px;
+}
+.right p{
+	font-size: 12px;
+	color: #a47a28;
+
+}
+tr{
+	width: 15px;
+}
